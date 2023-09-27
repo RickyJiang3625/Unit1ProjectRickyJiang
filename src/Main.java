@@ -18,6 +18,7 @@ public class Main {
         double billAfterTips=bill+tipAmountInMoney;
         double tipPerPerson=tipAmountInMoney/numberOfPeople;
         double totalPerPerson=billAfterTips/numberOfPeople;
+        //Print
         System.out.println("Your total bill is: "+billAfterTips);
         System.out.println("Your total tip amount is: "+tipAmountInMoney);
         System.out.println("Your tip amount per person is: "+tipPerPerson);
